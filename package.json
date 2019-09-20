@@ -1,0 +1,19 @@
+{
+  "name": "testingworkshop",
+  "version": "1.0.0",
+  "description": "Coding exercise for the testing workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grahfft/TestingWorkshop.git"
+  },
+  "author": "Dennis Lassell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grahfft/TestingWorkshop/issues"
+  },
+  "homepage": "https://github.com/grahfft/TestingWorkshop#readme"
+}
