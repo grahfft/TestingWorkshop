@@ -1,0 +1,21 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "lib": [
+        "esnext"
+      ],
+      "outDir": "../dist",
+      "baseUrl": ".",
+      "noEmit": false,
+      "module": "commonjs",
+      "isolatedModules": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "strictPropertyInitialization": false,
+      "downlevelIteration": true
+    },
+    "include": [
+    ],
+    "exclude": []
+  }
+  
