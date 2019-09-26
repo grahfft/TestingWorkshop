@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'no tests'",
-    "server": "ts-node-dev --project backend/tsconfig.json backend/server.ts",
+    "start": "run-p -l server frontend",
+    "server": "ts-node-dev --project server/tsconfig.json server/server.ts",
     "frontend": "react-scripts start"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "chai": "^4.2.0",
     "express": "^4.17.1",
     "mocha": "^6.2.0",
+    "npm-run-all": "^4.1.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.1.2",
