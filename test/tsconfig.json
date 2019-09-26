@@ -1,0 +1,29 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "isolatedModules": false,
+        "jsx": "react",
+        "module": "commonjs",
+        "noEmit": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "target": "es5",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "mocha",
+            "node"
+        ]
+    },
+    "include": [
+        "./**/*.test.ts",
+        "./**/*.test.tsx"
+    ],
+    "exclude": [
+        "./node_modules"
+    ]
+}

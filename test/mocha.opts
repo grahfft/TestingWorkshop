@@ -1,0 +1,5 @@
+-r ts-node/register
+-r ignore-styles
+-r jsdom-global/register
+--file ./test/setup.ts
+--reporter nyan
