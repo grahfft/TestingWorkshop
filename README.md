@@ -15,7 +15,7 @@
     * Behaviors vs inputs
     * Gray box testing
 1. Refactor Exercise
-1. Exploratory Testing
+1. Exploratory Testing / Dog Food Testing
 
 ## Notes
 
